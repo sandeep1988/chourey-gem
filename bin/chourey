@@ -1,2 +1,0 @@
-require 'chourey'
-puts Hola.hi(ARGV[0])

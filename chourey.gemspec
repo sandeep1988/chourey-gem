@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
   s.name               = "chourey"
-  s.version            = "0.0.1"
+  s.version            = "1.2.0"
   s.executables = "chourey"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sandeep Chourey"]
   s.date = %q{2015-06-06}
-  s.description = %q{A simple hello world gem}
+  s.description = %q{use translator in gem}
   s.email = %q{schourey1988@gmail.com}
-  s.files = ["Rakefile", "lib/chourey.rb", "bin/chourey", "lib/chourey/translator"]
+  s.files = ["Rakefile", "lib/chourey.rb", "bin/chourey", "lib/chourey/translator.rb"]
   s.test_files = ["test/test_chourey.rb"]
   s.homepage = %q{http://rubygems.org/gems/chourey}
   s.require_paths = ["lib"]
