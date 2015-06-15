@@ -7,8 +7,10 @@ class Chourey::Translator
     case @language
     when "spanish"
       "Hola Sandeep"
-    else
+    when "english"
       "Hello Sandeep"
+    else " "
+        "Please give the suitable name english or spanish"
     end
   end
 end
